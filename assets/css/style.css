@@ -51,7 +51,7 @@ header {
 }
 
 .card-body {
-  min-height: 80px;
+  min-height: 40px;
 }
 
 .card-footer {
@@ -97,7 +97,7 @@ button[disabled] {
   float: right;
 }
 
-#password {
+#password{
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
