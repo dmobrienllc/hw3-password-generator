@@ -24,7 +24,7 @@ function writePassword() {
   var passwordCriteria = document.querySelector("#password-criteria");
 
   passwordText.value = passwordInfoDto.password;
-  //passwordCriteria.value = passwordInfoDto.writeValues();
+  passwordCriteria.value = passwordInfoDto.writeValues();
 }
 
 //Sets up password criteria and returns object
