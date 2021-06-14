@@ -30,6 +30,7 @@ function writePassword() {
 //Sets up password criteria and returns object
 function generatePassword() {
 
+  passwordInfoDto.password = "";
   passwordInfoDto.pwdLength = validateNumberOfChars();
   passwordInfoDto.useLower = confirm("Would you like lowercase characters in your password?");
   passwordInfoDto.useUpper = confirm("Would you like UPPER CASE characters in your password?");
