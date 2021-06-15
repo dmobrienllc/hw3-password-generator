@@ -12,7 +12,8 @@
 ### David OBrien's Password Generator
 
 Web based password generator application allows user to input length and char types
-they would like included in their emitted password.
+they would like included in their emitted password. Also displays inputs after password
+is generated to facilitate validating output.
 
 ### Screenshot
 ![Image text](./assets/images/finished-screenshot.png)
